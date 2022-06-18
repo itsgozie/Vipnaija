@@ -63,7 +63,8 @@ nav {
   border-width: thin;
   border-color: #666666;
   display: inline-block;
-  float: left;
+  /* float: left; */
+  vertical-align: top;
 }
 
 .right-bar {
@@ -74,7 +75,9 @@ nav {
   border-width: thin;
   border-color: #666666;
   display: inline-block;
-  float:left;
+  /* float:left; */
+  vertical-align: top;
+  
 }
 
 .mid-section {
@@ -86,7 +89,8 @@ nav {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  float: left;
+  /* float: left; */
+  vertical-align: top;
 }
 
 .feed, .li-event {
@@ -120,5 +124,5 @@ footer {
   background-color: #E6E6E6;
   width: 100%;
   height: 80px;
-  clear: left;
+  /* clear: left; */
 }
