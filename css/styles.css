@@ -155,6 +155,11 @@ footer {
   margin-top: 50px;
 }
 
+.column-section {
+  margin: 0 auto;
+  min-width: 300px;
+}
+
 .column {
   color: #666666;
 }
