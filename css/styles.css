@@ -70,9 +70,8 @@ input {
   height: 50px;
 }
 
-.sidebar {
+.left-bar {
   width: 25%;
-  height: auto;
   background: #f2f2f2;
   border-right: solid;
   border-width: thin;
@@ -84,6 +83,7 @@ input {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing:border-box;
+  /* overflow: scroll; */
 }
 
 .right-bar {
@@ -102,7 +102,7 @@ input {
 
 }
 
-.mid-section {
+.mid-section, .column-section {
   width: 49%;
   height: auto;
   display: inline-block;
@@ -153,4 +153,8 @@ footer {
   display: inline-block;
   list-style: none;
   margin-top: 50px;
+}
+
+.column {
+  color: #666666;
 }
