@@ -14,10 +14,11 @@ a {
 
 h4 {
   text-align: center;
+  margin-bottom: 5px;
   /* font-family: 'Myriad Pro', sans-serif; */
   /* font-size: 1.1667rem; */
-  padding: 30px 18px 0;
-  margin: 0;
+  /* padding: 30px 18px 0; */
+  /* margin: 0; */
 }
 
 header {
@@ -29,7 +30,8 @@ header {
 nav {
   background-color: #E6E6E6;
   width: 100%;
-  height: 80px;
+  height: auto;
+  padding-bottom: 5px;
   position: relative;
   border-bottom: solid;
   border-width: thin;
@@ -38,7 +40,7 @@ nav {
 }
 
 .brand-id {
-  max-width: 200px;
+  width: 14.8148148%;
   display: inline-block;
 }
 
@@ -51,8 +53,8 @@ nav {
   font-size: 1.375rem;
   color: #666666;
   background-color: #f2f2f2;
-  width: 276px;
-  height: 39px;
+  width: 20.444444%;
+  height: 58.208955%;
   margin-top: 17px;
   border-radius: 6.136px;
   border-style: none;
@@ -79,7 +81,7 @@ input {
   display: inline-block;
   /* float: left; */
   vertical-align: top;
-  padding: 30px 18px;
+  padding: 30px 1.3343217%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing:border-box;
@@ -107,7 +109,7 @@ input {
   height: auto;
   display: inline-block;
   background: #f2f2f2;
-  padding: 20px;
+  padding: 20px 1.482579%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -127,6 +129,10 @@ input {
   padding: 5px;
 }
 
+.event {
+  text-align: center;
+}
+
 article {
   padding: 25px 0;
   border-bottom-style: solid;
@@ -136,10 +142,6 @@ article {
 
 img {
   width: 100%;
-}
-
-.event {
-  text-align: center;
 }
 
 footer {
