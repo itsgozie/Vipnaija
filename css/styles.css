@@ -81,7 +81,7 @@ input {
   display: inline-block;
   /* float: left; */
   vertical-align: top;
-  padding: 30px 1.3343217%;
+  padding: 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing:border-box;
@@ -120,7 +120,7 @@ input {
 .feed, .li-event {
   font-size: 10pt;
   color: #666666;
-  padding: 10px 0;
+  padding: 10px 14px;
   margin: 0;
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -165,3 +165,27 @@ footer {
 .column {
   color: #666666;
 }
+
+.soccer {
+  background: green;
+}
+
+.basketball {
+  background: orange;
+}
+
+.football {
+  background: skyblue;
+}
+
+.soccer, .basketball, .football {
+  color: white;
+}
+
+.li-event > a {
+  color: white;
+}
+
+/* h4 + p {
+  color: white;
+} */
