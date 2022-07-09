@@ -6,6 +6,7 @@ body {
 .container {
   width: 100%;
   height: auto;
+  position: relative;
 }
 
 a {
@@ -14,7 +15,7 @@ a {
 }
 
 a:hover, p>a:hover,div>a>img+p:hover {
-  color: #bfbfbf;
+  color: #ab46d2;
 }
 
  /* div>a>img+p:hover {
@@ -100,7 +101,7 @@ input {
   /* overflow: scroll; */
 }
 
-.right-bar {
+.right-bar,.right-bar-column {
   width: 25%;
   height: auto;
   background: #f2f2f2;
@@ -113,7 +114,11 @@ input {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing:border-box;
+}
 
+.right-bar-column {
+  position: absolute;
+  right: 0;
 }
 
 .mid-section, .column-section {
@@ -121,7 +126,7 @@ input {
   height: auto;
   display: inline-block;
   background: #f2f2f2;
-  padding: 20px 1.482579%;
+  padding: 20px 1.9%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -167,6 +172,7 @@ footer {
   background-color: #E6E6E6;
   width: 100%;
   height: 170px;
+  position: relative;
   /* clear: left; */
 }
 
