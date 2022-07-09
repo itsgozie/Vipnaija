@@ -10,11 +10,21 @@ body {
 
 a {
   text-decoration: none;
+  color: #666666;
 }
+
+a:hover, p>a:hover,div>a>img+p:hover {
+  color: #bfbfbf;
+}
+
+ /* div>a>img+p:hover {
+  color: orange;
+} */
 
 h4 {
   text-align: center;
-  margin-bottom: 5px;
+  margin: 0;
+  /* margin-bottom: 5px; */
   /* font-family: 'Myriad Pro', sans-serif; */
   /* font-size: 1.1667rem; */
   /* padding: 30px 18px 0; */
@@ -134,14 +144,18 @@ input {
 }
 
 article {
-  padding: 25px 0;
-  border-bottom-style: solid;
+  padding: 10px 0;
+  /* border-bottom-style: solid; */
   border-width: thin;
   border-color: silver;
 }
 
 img {
   width: 100%;
+}
+
+.img-blog {
+  border-radius: 10px;
 }
 
 footer {
@@ -171,19 +185,24 @@ footer {
 }
 
 .basketball {
-  background: orange;
+  background: #d63200;
 }
 
 .football {
-  background: skyblue;
+  background: #388caf;
 }
 
 .soccer, .basketball, .football {
   color: white;
+  padding: 15px 0;
 }
 
 .li-event > a {
   color: white;
+}
+
+.sports {
+  padding-top: 40px;
 }
 
 /* h4 + p {
