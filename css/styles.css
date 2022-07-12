@@ -116,10 +116,10 @@ input {
   box-sizing:border-box;
 }
 
-.right-bar-column {
+/* .right-bar-column {
   position: absolute;
   right: 0;
-}
+} */
 
 .mid-section, .column-section {
   width: 49%;
@@ -182,16 +182,16 @@ footer {
   margin-top: 100px;
 }
 
-.column-section {
+/* .column-section {
   margin: 0 auto;
   min-width: 300px;
-}
+} */
 
 .column {
   color: #666666;
 }
 
-.soccer {
+.soccer, .tennis {
   background: green;
 }
 
@@ -203,7 +203,7 @@ footer {
   background: #388caf;
 }
 
-.soccer, .basketball, .football {
+.soccer, .basketball, .football .tennis {
   color: white;
   padding: 15px 0;
 }
