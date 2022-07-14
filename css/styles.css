@@ -101,6 +101,14 @@ input {
   /* overflow: scroll; */
 }
 
+
+@media screen and (max-width: 390px) {
+  .left-bar {
+    width: 100%;
+  }
+}
+
+
 .right-bar,.right-bar-column {
   width: 25%;
   height: auto;
