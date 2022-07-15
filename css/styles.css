@@ -129,6 +129,12 @@ input {
   right: 0;
 } */
 
+@media screen and (max-width:390px){
+  .right-bar {
+    width: 100%
+  }
+}
+
 .mid-section, .column-section {
   width: 49%;
   height: auto;
@@ -140,6 +146,12 @@ input {
   box-sizing: border-box;
   /* float: left; */
   vertical-align: top;
+}
+
+@media screen and (max-width:390px){
+  .mid-section {
+    width: 100%
+  }
 }
 
 .feed, .li-event {
@@ -194,6 +206,13 @@ footer {
   margin: 0 auto;
   min-width: 300px;
 } */
+
+@media screen and (max-width:390px) {
+  .star-game {
+    display: none;
+  }
+}
+
 
 .column {
   color: #666666;
