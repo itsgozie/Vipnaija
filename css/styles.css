@@ -114,6 +114,7 @@ nav {
 @media screen and (max-width: 390px) {
   .left-bar {
     width: 100%;
+    border-right: 0;
   }
 }
 
@@ -140,12 +141,13 @@ nav {
 
 @media screen and (max-width:390px){
   .right-bar {
-    width: 100%
+    width: 100%;
+    border-left: 0;
   }
 }
 
 .mid-section, .column-section {
-  width: 49%;
+  width: 50%;
   height: auto;
   /* display: inline-block; */
   background: #f2f2f2;
@@ -159,16 +161,21 @@ nav {
 
 @media screen and (max-width:390px){
   .mid-section {
-    width: 100%
+    width: 100%;
+    padding: 0;
   }
+  .article-link,h1 {
+    padding-left: 1.9%;
+    padding-right:1.9%;
+  }
+  
 }
 
 .feed, .li-event {
   font-size: 10pt;
   color: #666666;
-  padding: 10px 14px;
+  padding: 10px 1.9%;
   margin: 0;
-  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .li-event {
@@ -194,6 +201,12 @@ img {
   border-radius: 10px;
 }
 
+@media screen and (max-width:390px){
+  .img-blog {
+    border-radius: 0;
+  }
+}
+
 footer {
   border-top-width: thin;
   border-top-style: solid;
@@ -202,7 +215,7 @@ footer {
   width: 100%;
   height: auto;
   position: relative;
-  clear: both; 
+  clear: both;
 }
 
 .foot-info {
@@ -239,7 +252,7 @@ footer {
   background: #388caf;
 }
 
-.soccer, .basketball, .football .tennis {
+.soccer, .basketball, .football, .tennis {
   color: white;
   padding: 15px 0;
 }
