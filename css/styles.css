@@ -45,8 +45,8 @@ nav {
   height: auto;
   padding-bottom: 5px;
   position: relative;
-  border-bottom: solid;
-  border-width: thin;
+  /* border-bottom: solid;
+  border-width: thin; */
   border-color: #666666;
   display: inline-flex;
 }
@@ -273,4 +273,13 @@ footer {
 
 .footer-small {
   text-align: center;
+}
+
+@media screen and (max-width:390px) {
+  .column-section {
+    width: 100%;
+  }
+  .right-bar-column {
+    display: none;
+  }
 }
