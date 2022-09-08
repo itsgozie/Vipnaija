@@ -276,6 +276,10 @@ footer {
   text-align: center;
 }
 
+iframe {
+  border-radius: 5px;
+}
+
 @media screen and (max-width:390px) {
   .column-section {
     width: 100%;
